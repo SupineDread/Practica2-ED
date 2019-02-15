@@ -4,20 +4,16 @@
  Descripcion: Definicion de la estructura actividad
  **************/
 
-#ifndef _ACTIVIDAD_H
-#define _ACTIVIDAD_H
+#ifndef _EVALUACION_H
+#define _EVALUACION_H
 
 #include "common.h"
 
 typedef struct  {
-    int identificador;
-    char descripcion[SIZE];
-    Fecha fechaLimite;
-} Actividad;
+    Actividad actividad;
+    float calificacion;
+    char Observaciones[SIZE];
+} Evaluacion;
 
-
-void Actividad_registrar(Actividad *nuevaActividad);
-//void Actividad_modificar();
-void Actividad_mostrar(Actividad actividad);
-
+void Evaluacion_calificar(Evaluacion *nuevaEvaluacion);
 #endif
