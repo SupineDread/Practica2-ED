@@ -9,6 +9,7 @@
 
 #include "common.h"
 #include "estudiante.h"
+#include "actividad.h"
 
 static const char *tipoHorario[]  = { "teoria  ", "practica", "asesoria"};
 
@@ -29,10 +30,10 @@ typedef struct P2_Grupo{
 
 
 
-
+void Crear_grupo(Grupo *grupo);
 void Grupo_registrar(Grupo *grupo);
 void Grupo_mostar(Grupo grupo);
 void Grupo_mostarEstudiantes(Grupo grupo);
 void Grupo_registrarEstudiante(Grupo *grupo, Estudiante *alumno);
-
+void Grupo_calcularPromedio(Grupo *grupo);
 #endif

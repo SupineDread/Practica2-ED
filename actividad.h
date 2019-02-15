@@ -13,6 +13,7 @@ typedef struct  {
     int identificador;
     char descripcion[SIZE];
     Fecha fechaLimite;
+    float porcentaje;
 } Actividad;
 
 

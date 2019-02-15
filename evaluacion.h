@@ -14,6 +14,5 @@ typedef struct  {
     float calificacion;
     char Observaciones[SIZE];
 } Evaluacion;
-
 void Evaluacion_calificar(Evaluacion *nuevaEvaluacion);
 #endif

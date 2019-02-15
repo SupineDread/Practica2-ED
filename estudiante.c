@@ -30,3 +30,11 @@ void Estudiante_mostrar(Estudiante alumno){
     printf("Nombre: %s %s %s \n", alumno.apPaterno, alumno.apMaterno, alumno.nombre);
 
 }
+
+float Estudiante_calcularPromedio(Estudiante alumno){
+    float retorno = 0;
+    for(int i = 0;i<4;i++){
+        retorno+=alumno.evaluaciones[i].calificacion;
+    }
+    return retorno/4.0;
+}

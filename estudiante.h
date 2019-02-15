@@ -13,10 +13,11 @@ typedef struct  {
     char nombre[SIZE];
     char apPaterno[SIZE];
     char apMaterno[SIZE];
+    Evaluacion evaluaciones[10];
 } Estudiante;
 
 
 void Estudiante_registrar(Estudiante *alumno);
 void Estudiante_mostrar(Estudiante alumno);
-
+float Estudiante_calcularPromedio(Estudiante alumno);
 #endif
