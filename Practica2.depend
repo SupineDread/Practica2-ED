@@ -33,3 +33,47 @@
 	<stdio.h>
 	<string.h>
 
+1550452431 source:c:\users\payan\desktop\practica2-ed\actividad.c
+	"actividad.h"
+
+1550206010 c:\users\payan\desktop\practica2-ed\actividad.h
+	"common.h"
+
+1550201923 c:\users\payan\desktop\practica2-ed\common.h
+
+1550201923 source:c:\users\payan\desktop\practica2-ed\common.c
+	<stdio.h>
+	"common.h"
+
+1550443850 source:c:\users\payan\desktop\practica2-ed\evaluacion.c
+	"evaluacion.h"
+
+1550443869 c:\users\payan\desktop\practica2-ed\evaluacion.h
+	"common.h"
+	"actividad.h"
+
+1550452522 source:c:\users\payan\desktop\practica2-ed\estudiante.c
+	"estudiante.h"
+	<stdio.h>
+
+1550443882 c:\users\payan\desktop\practica2-ed\estudiante.h
+	"evaluacion.h"
+
+1550451248 source:c:\users\payan\desktop\practica2-ed\grupo.c
+	"grupo.h"
+	<string.h>
+
+1550443904 c:\users\payan\desktop\practica2-ed\grupo.h
+	"common.h"
+	"estudiante.h"
+	"actividad.h"
+
+1550452558 source:c:\users\payan\desktop\practica2-ed\main.c
+	"estudiante.h"
+	"grupo.h"
+	"common.h"
+	"actividad.h"
+	"evaluacion.h"
+	<stdio.h>
+	<string.h>
+

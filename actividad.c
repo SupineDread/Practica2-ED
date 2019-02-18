@@ -24,4 +24,5 @@ void Actividad_mostrar(Actividad actividad){
     printf("Identificador: %i \n", actividad.identificador);
     printf("Descripcion: %s \n", actividad.descripcion);
     printf("Fecha entrega: %s, %s\n", actividad.fechaLimite.dia, actividad.fechaLimite.hora);
+    printf("Porcentaje: %f%%\n",actividad.porcentaje);
 }

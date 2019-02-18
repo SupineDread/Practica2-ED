@@ -7,7 +7,7 @@ Descripcion: Definicion de la estructura estudiante
 #ifndef ESTUDIANTE_H
 #define ESTUDIANTE_H
 #define SIZE 100
-
+#include "evaluacion.h"
 typedef struct  {
     int matricula;
     char nombre[SIZE];

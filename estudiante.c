@@ -23,18 +23,20 @@ void Estudiante_registrar(Estudiante *alumno){
     scanf("%s", alumno->apMaterno);
 
 }
-
+float Estudiante_calcularPromedio(Estudiante alumno){
+    float retorno = 0;
+    for(int i = 1;i<=4;i++){
+        retorno+=(alumno.evaluaciones[i].calificacion * alumno.evaluaciones[i].actividad.porcentaje)/100.0;
+    }
+    return retorno;
+}
 void Estudiante_mostrar(Estudiante alumno){
     printf("============== Datos del estudiante  ================\n");
     printf("Matricula: %d \n", alumno.matricula);
     printf("Nombre: %s %s %s \n", alumno.apPaterno, alumno.apMaterno, alumno.nombre);
+    for(int i=0;i<4;i++){
 
-}
-
-float Estudiante_calcularPromedio(Estudiante alumno){
-    float retorno = 0;
-    for(int i = 0;i<4;i++){
-        retorno+=alumno.evaluaciones[i].calificacion;
     }
-    return retorno/4.0;
+    printf("Promedio: %f",Estudiante_calcularPromedio(alumno));
+
 }

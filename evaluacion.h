@@ -8,11 +8,13 @@
 #define _EVALUACION_H
 
 #include "common.h"
+#include "actividad.h"
 
 typedef struct  {
     Actividad actividad;
     float calificacion;
-    char Observaciones[SIZE];
+    char observaciones[SIZE];
 } Evaluacion;
-void Evaluacion_calificar(Evaluacion *nuevaEvaluacion);
+void Evaluacion_registrar(Evaluacion *nuevaEvaluacion);
+void Evaluacion_imprimir(Evaluacion *evaluacion);
 #endif
