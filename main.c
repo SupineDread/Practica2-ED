@@ -104,7 +104,7 @@ int main(){
                                     printf("Calificacion:");
                                     float c = 0.0;
                                     scanf("%f",&c);
-                                    if(c<1.0 || c>10.0){
+                                    if(c<0.0 || c>10.0){
                                         printf("Calificacion invalida\n");
                                     }else{
                                         printf("observaciones:\n");

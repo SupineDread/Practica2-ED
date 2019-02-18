@@ -1,8 +1,8 @@
 # depslib dependency file v1.0
-1549921177 source:d:\hazie\documents\codeblocks\practica2\actividad.c
+1550508335 source:d:\hazie\documents\codeblocks\practica2\actividad.c
 	"actividad.h"
 
-1549921212 d:\hazie\documents\codeblocks\practica2\actividad.h
+1550508335 d:\hazie\documents\codeblocks\practica2\actividad.h
 	"common.h"
 
 1549921254 d:\hazie\documents\codeblocks\practica2\common.h
@@ -11,25 +11,28 @@
 	<stdio.h>
 	"common.h"
 
-1549921282 source:d:\hazie\documents\codeblocks\practica2\estudiante.c
+1550508335 source:d:\hazie\documents\codeblocks\practica2\estudiante.c
 	"estudiante.h"
 	<stdio.h>
 
-1549921300 d:\hazie\documents\codeblocks\practica2\estudiante.h
+1550508335 d:\hazie\documents\codeblocks\practica2\estudiante.h
+	"evaluacion.h"
 
-1549921325 source:d:\hazie\documents\codeblocks\practica2\grupo.c
+1550508335 source:d:\hazie\documents\codeblocks\practica2\grupo.c
 	"grupo.h"
 	<string.h>
 
-1549922713 d:\hazie\documents\codeblocks\practica2\grupo.h
+1550508335 d:\hazie\documents\codeblocks\practica2\grupo.h
 	"common.h"
 	"estudiante.h"
+	"actividad.h"
 
-1549921367 source:d:\hazie\documents\codeblocks\practica2\main.c
+1550526250 source:d:\hazie\documents\codeblocks\practica2\main.c
 	"estudiante.h"
 	"grupo.h"
 	"common.h"
 	"actividad.h"
+	"evaluacion.h"
 	<stdio.h>
 	<string.h>
 
@@ -76,4 +79,11 @@
 	"evaluacion.h"
 	<stdio.h>
 	<string.h>
+
+1550508335 d:\hazie\documents\codeblocks\practica2\evaluacion.h
+	"common.h"
+	"actividad.h"
+
+1550508335 source:d:\hazie\documents\codeblocks\practica2\evaluacion.c
+	"evaluacion.h"
 
