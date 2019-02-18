@@ -68,7 +68,7 @@ void registrarAlumnosIniciales(){
         strcpy(ex.apMaterno, "Test");
         Grupo_registrarEstudiante(&grupos[2],&ex);
     }
-    for(int i=1;i<=1;i++){
+    for(int i=1;i<=4;i++){
         Estudiante ex;
         ex.matricula = 2849873 + i;
         sprintf(ex.nombre, "Test %d",i);
